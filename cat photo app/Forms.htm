@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cat Forms</title>
+	</head>
+	<body>
+        <h2>Cat Form</h2>
+        <form>
+            <input type="text" name="CatName" placeholder="what is your cat's name" required>
+            <br>
+            <input type="text" name="CatBreed" placeholder="what is your cat's breed" required>
+            <br>
+            <input type="text" name="CatColour" placeholder="what is the color of your cat" required>
+       		<fieldset>
+              <legend>Is your cat an indoor or outdoor cat?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+              <legend>What's your cat's personality?</legend>
+            <label>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            </label>
+            <label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            </label>
+            <label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic">Energetic
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>
+              <legend>What are the characteristics of your cat</legend>
+              <input id="claws" type="checkbox" name="characteristics" value="claws" checked>Long claws
+            </label>
+            <label>
+              <input id="bushy" type="checkbox" name="characteristics" value="bushy">Bushy hair
+            </label>
+            <label>
+              <input id="fur" type="checkbox" name="characteristics" value="fur">Thick fur
+            </label>
+          </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+   </body>
+</html>

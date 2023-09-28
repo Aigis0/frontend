@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" placeholder="0" readonly>
+    <div class="buttons">
+      <button id="sign" onclick="clearResult()">C</button>
+      <button id="sign" onclick="calculatePercentage()">%</button>
+      <button id="sign"onclick="backspace()"><</button>
+      <button id="sign" onclick="appendToResult('/')">/</button><br>
+
+      <button id="num" onclick="appendToResult('7')">7</button>
+      <button id="num" onclick="appendToResult('8')">8</button>
+      <button id="num" onclick="appendToResult('9')">9</button>
+      <button id="sign" onclick="appendToResult('*')">x</button><br>
+      
+      <button id="num" onclick="appendToResult('4')">4</button>
+      <button id="num" onclick="appendToResult('5')">5</button>
+      <button id="num" onclick="appendToResult('6')">6</button>
+      <button id="sign" onclick="appendToResult('-')">--</button><br>
+
+      <button id="num" onclick="appendToResult('1')">1</button>
+      <button id="num" onclick="appendToResult('2')">2</button>
+      <button id="num" onclick="appendToResult('3')">3</button>
+      <button id="sign" onclick="appendToResult('+')">+</button><br>
+
+      <button id="num" onclick="appendToResult('00')">00</button>
+      <button id="num" onclick="appendToResult('0')">0</button>
+      <button id="num" onclick="appendToResult('.')">.</button>
+      <button id="sign" onclick="calculate()">=</button>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

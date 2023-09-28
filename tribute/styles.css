@@ -1,0 +1,10 @@
+#image {
+    min-width: 350px;
+    max-width: 1000px;
+    height: 300px;   
+}
+#img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

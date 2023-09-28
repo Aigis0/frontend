@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: burlywood;
+  margin: auto;
+  padding: auto;
+}
+h1 {
+  text-align: center;
+  color: navy;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+p {
+  text-align: center;
+  color: navy;
+  padding-top: -30px;
+  padding-bottom: 20px;
+}
+#name {
+  display: block;
+}
+#email {
+  display: block;
+}
+#number {
+  display: block;
+}
+#dropdown {
+  display: block;
+}
+#referral {
+  display: inline-block;
+}
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ccc;
+}
+

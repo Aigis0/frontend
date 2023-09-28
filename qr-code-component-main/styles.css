@@ -1,0 +1,46 @@
+
+body{
+    background-color:  hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card {
+    position: relative;
+    width: 270px;
+    height: 400px;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 20px;
+
+  }
+.image {
+    border-radius: 20px;
+    width: 240px;
+    margin: 15px;
+  }
+
+.info {
+    margin: 10px;
+  }
+
+h3 {
+    color: hsl(229, 23%, 23%);
+    }
+    
+ p {
+  color: hsl(227, 10%, 46%);
+  font-size: 15px;
+    }
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 59%, 60%);
+ }
+a:active {
+  color: #fff;
+ }
