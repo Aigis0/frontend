@@ -5,13 +5,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #636b6e;
+    background-color: #023047;
   }
   
   .calculator {
-    border: 3px solid rgb(60, 161, 255);
+    border: 5px solid #023047;
     padding: 25px;
-    background-color: #101414;
+    background-color: #30638E;
     border-radius: 25px;
     text-align: center;
   }
@@ -20,12 +20,10 @@ body {
     width: 90%;
     margin-top: 10px;
     margin-bottom: 15px;
-    border: 2px solid rgb(60, 161, 255);
+    border: 2px solid #023047;
     padding: 5px;
     font-size: 24px;
     text-align: right;
-    background-color: #e4da59;
-    color: rgb(106, 107, 105);
   }
 
   /*number design (.,0,1,2,3,4,5,6,7,8,9)*/
@@ -35,19 +33,19 @@ body {
     font-size: 25px;
     margin: 5px;
     cursor: pointer;
-    background-color: #101414;
-    border: none;
-    border-radius: 15px;
-    color: white;
+    background-color: #003D5B;
+    border: 1px solid #023047;
+    border-radius: 50px;
+    color: #ffffff;
   }
   #num:hover {
     background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #003D5B;
   }
   
   #num:active {
-    background-color: #5f5f5e;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #FB8500;
   }
 
  
@@ -59,21 +57,21 @@ body {
     font-size: 25px;
     margin: 5px;
     cursor: pointer;
-    background-color: #101414;
-    border: none;
-    border-radius: 15px;
-    color: rgb(60, 161, 255);
+    background-color: #FB8500;
+    border: 1px solid #023047;
+    border-radius: 50px;
+    color: #fff;
 
   }
   
   #sign:hover {
-    background-color: rgb(60, 161, 255);
-    color:#ffffff;
+    background-color: #fff;
+    color: #FB8500;
   }
   
   #sign:active {
-    background-color: #252522;
-    color: antiquewhite;
+    background-color: #ffffff;
+    color: #003D5B;
   }
  
   

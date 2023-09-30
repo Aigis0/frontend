@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Dependencies-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!--Start-->
+<script src="script.js"></script>
+<div class="wrapper">
+	
+	<div class="top">
+		<h1>Logan Ipsum Generator</h1>
+		<form class="collect-vars">
+			<p>I need</p>
+			<input id="num" class="number checked" type="number" value="1" min="1" max="999" maxlength="3" name="num">
+			<p>of your</p>
+			<select id="typ" class="thing checked" name="font">
+				<option value="w">words</option>
+				<option value="s">sentences</option>
+				<option value="p">paragraphs</option>
+			</select>
+			<p>Logan Broger.</p>
+			<button id="generate">Generate</button>
+		</form>
+	</div>
+	
+	
+	<div class="bottom">
+		<div id="display" class="display"></div>
+	</div>
+		
+</div>
+</body>
+</html>
