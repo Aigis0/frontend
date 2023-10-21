@@ -1,5 +1,9 @@
 /* https://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
-*{box-sizing: border-box; margin: 0; padding: 0;}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 html{
 	height: 100%;
 	width: 100%;
@@ -10,8 +14,13 @@ body{
 	font-size: 18px;
 	font-family: serif;
 	line-height: 1.5;
-	background-color: #ffffff;
-	color: #222222;
+	background-color: #023047;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	font-style: oblique;
+	font-weight: bolder;
 }
 
 .wrapper{
@@ -21,6 +30,10 @@ body{
 .top{
 	padding: 0px 40px;
 	height: 200px;
+	/* -webkit-user-select: none;      
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none; */
 	user-select: none;
 }
 .bottom{
@@ -34,7 +47,7 @@ body{
 
 /*Display Area*/
 .display{
-	background-color: #ECECEC;
+	background-color: #fff;
 	padding: 20px;
 	position: absolute;
 	left: 40px;
@@ -42,6 +55,7 @@ body{
 	top: 20px;
 	bottom: 40px;
 	overflow: auto;
+	border-radius: 10px;
 }
 .display p{
 	margin-bottom: 25px;
@@ -58,7 +72,9 @@ form{
 	width: 100%;
 	margin-bottom: 15px;
 	padding: 20px;
-	background-color: #ECECEC;
+	background-color: #fff;
+	font-weight: bold;
+	border-radius: 10px;
 }
 
 form p{
@@ -66,6 +82,7 @@ form p{
 	height: 30px;
 	display: inline-block;
 	margin: 5px;
+	font-style: italic;
 }
 form input{
 	width: 40px;
@@ -81,8 +98,10 @@ form select, form input{
 	height: 28px;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid #003D5B;
-	background-color: #FFFFFF;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 2px solid #023047;
+	background-color: #8093F1;
 }
 #generate{
 	cursor: pointer;
@@ -91,19 +110,16 @@ form select, form input{
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	background-color: #003D5B;
-	color: #FFFFFF;
-	border-radius: 5px;
+	background-color: #8093F1;
+	color: #fff;
+	border-radius: 3px;
 	margin-top: 15px;
-    font-size: 15px;
-    font-weight: bold
-	transition: 0.1s ease-in;
+	transition: all .1s ease-in;
+	-webkit-transition: all .1s ease-in;
 }
 #generate:hover{
-    text-decoration: none;
-	background-color: #fff;
-    color: #003D5B ;
-    border: none;
+	background-color: #023047;
+	color: #8093F1;
 }
 
 
