@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        :root{
+        --text-color: #fff;
+        --bg-color: #1b1f24;
+        --main-color: #13bbff;
+        --big-font: 4.5rem;
+        --h4-font: 1.6rem;
+        --p-font: 1.1rem;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-size: var(--p-font);
+        }
+        section {
+            position: absolute;
+            width: 100vh;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            overflow: hidden;
+        }
+        form {
+            border: 2px solid var(--main-color);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        } 
+        form div {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <form action="process_form.php" method="POST">
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <label for="submit"></label><input type="submit" id="submit" value="Submit">
+    </form>
+    </section>
+</bod>
+</html>
