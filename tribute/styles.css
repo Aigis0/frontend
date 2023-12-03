@@ -1,10 +1,63 @@
-#image {
-    min-width: 350px;
-    max-width: 1000px;
-    height: 300px;   
-}
-#img {
-    display: block;
-    max-width: 100%;
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+  }
+  
+  #main {
+    max-width: 800px; /* Adjust the maximum width according to your design */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #img-div {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%; /* Make the image responsive */
     height: auto;
-}
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  #img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  #tribute-info{
+    padding-top: 30px;
+    background-color: beige;
+  }
+  #tribute-info  h4{
+    text-align: center;
+  }
+    
+  li {
+    margin-bottom: 20px;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  #tribute-info p {
+    text-align: center;
+  }
+  #tribute-link {
+    color: #428bca; /* Bootstrap blue color for links */
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
